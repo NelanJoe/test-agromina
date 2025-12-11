@@ -1,9 +1,15 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute('/about')({
-  component: RouteComponent,
-})
+export const Route = createFileRoute("/about")({
+  component: About,
+});
 
-function RouteComponent() {
-  return <div>Hello "/about"!</div>
+function About() {
+  return (
+    <section className="max-w-7xl mx-auto px-4 py-8">
+      <div>
+        <p>About page</p>
+      </div>
+    </section>
+  );
 }
