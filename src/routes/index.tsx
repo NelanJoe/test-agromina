@@ -34,7 +34,7 @@ function App() {
             ))}
           </div>
           <div className="bg-slate-300 rounded-md flex items-center justify-center lg:w-[400px] h-[400px]">
-            2
+            Image
           </div>
           <div className="flex flex-col gap-8 ">
             {Array.from({ length: 3 }).map((_, index) => (
